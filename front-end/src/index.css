@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+.Black{
+    color: #020200;
+
+}
+
+.lightYellow{
+    background-color: rgba(245, 213, 71, 0.34);
+}
+
+.secondSide{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+@media (max-width: 767px) { /* Tailwind's md breakpoint is 768px */
+    .secondSide {
+/*        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;*/
+    }
+}
+.svg{
+    width: 600px;
+    margin-top: 20px;
+}
+
+.butt{
+    background-color: #F5D547;
+    color: white;
+}
+
+.butt:hover{
+    background-color: rgba(245, 213, 71, 0.79);
+    border: none;
+    color: white;
+}
+
+
+/*
+    =======> Sidebar styling :
+*/
+
+
+.sideBar{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.mainContent{
+    width: 95%;
+}
+
+.transitionSide{
+    transition: ease-in-out;
+    transition-duration: 3s;
+}
+
+
+.nav{
+    background-color: #F1F2F4 ;
+
+}
+
+.headerNav{
+    border-radius: 20px;
+
+}
+
+.myFooter{
+
+    border-radius: 20px;
+}
+
+.Myinput:focus{
+    border: none;
+}
+.Myinput:active{
+    border: none;
+}
+
+.e-gridheader{
+    background: #F5D547;
+}

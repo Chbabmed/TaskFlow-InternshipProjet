@@ -1,0 +1,47 @@
+{
+  "name": "taskflow-v0.1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hookform/devtools": "^4.3.1",
+    "@hookform/resolvers": "^3.9.0",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@mui/x-charts": "^7.12.1",
+    "@syncfusion/ej2-base": "^26.2.10",
+    "@syncfusion/ej2-react-dropdowns": "^26.2.10",
+    "@syncfusion/ej2-react-gantt": "^26.2.10",
+    "@syncfusion/ej2-react-grids": "^26.2.10",
+    "antd": "^5.20.1",
+    "axios": "^1.7.5",
+    "css-doodle": "^0.39.2",
+    "framer-motion": "^12.0.0-alpha.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-highlight-words": "^0.20.0",
+    "react-hook-form": "^7.53.0",
+    "react-router-dom": "^6.26.0",
+    "styled-components": "^6.1.12",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.10",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "vite": "^5.3.4"
+  }
+}
